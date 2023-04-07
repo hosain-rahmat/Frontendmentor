@@ -1,0 +1,62 @@
+/* ------------------------------ */
+/* VARIABLES                      */
+/* ------------------------------ */
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-Light-gray: hsl(212, 45%, 89%);
+    --color-Grayish-blue: hsl(220, 15%, 55%);
+    --color-Dark-Blue: hsl(218, 44%, 22%);
+}
+
+/* ------------------------------ */
+/* RESETS                         */
+/* ------------------------------ */
+
+* ,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------ */
+/* STYLES                         */
+/* ------------------------------ */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    min-height: 100vh;
+    background: var(--color-Light-gray);
+}
+
+div {
+    background: var(--color-white);
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 12px 
+}
+
+img {
+    width: 280px;
+    border-radius: 12px;
+    margin: 10px 0  ;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: var(--color-Dark-Blue);
+    padding: 10px 10px;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-Grayish-blue);
+    padding: 10px 10px 20px 10px;
+}
